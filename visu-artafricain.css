@@ -5,7 +5,7 @@
 }
 
 section{
-    padding: 50px;
+    padding: 110px;
 }
 
 /* Navbar */
@@ -51,30 +51,112 @@ div p{
 
 
 /* Description */
-h1{
+
+h1{ 
     text-align: center;
 }
-.bloc-description-img{
+.description{ 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}.description-img{
+    display: flex;
+    justify-content: space-between;
 }.img-description-1{
-    width: 500px;
-    height: 500px;
+    width: 277px;
+    height: 488px;
 }.img-description-1 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }.img-description-2{
-    display: flex;
-    flex-direction: column;
-    width: 500px;
+    width: 277px;
+    height: 229px;
+    margin-left: 20px;
 }.img-description-2 img{
     width: 100%;
-    color: #000;
+    height: 100%;
+    object-fit: cover;
+}.img-description-2 #img-separator{
+    margin-top: 25px;
 }
-
 /* Description */
+
+/* Gallerie */
+.card-galerie{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}.card-img{
+    width: 138.5px;
+    height: 229px;
+}.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}.card-img .btn{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 117px;
+    background: #EA4545;
+    border-radius: 5px;
+    padding: 10px 10px;
+} 
+/* Gallerie */
+
+
+/* Contact */
+form{
+    width: 50%;
+}
+.input-saisie{
+    display: flex;
+    flex-direction: column;
+}.input-saisie input{
+    outline: none;
+    border: none;
+    width: 500px;
+    background: #d9d9d9;
+    border-radius: 50px;
+    padding: 5px;
+}.input-saisie label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 5px; 
+}.input-saisie textarea{
+    outline: none;
+    border: none;
+    width: 500px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}button{
+    background: #d9d9d9;
+    outline: none;
+    border: none;
+    width: 70px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* Contact */
+
+
+
+/* Footer */
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+}footer p{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/* Footer */
 
 
 
