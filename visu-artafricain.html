@@ -14,16 +14,16 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Accueil</a>
+                    <a href="#accueil">Accueil</a>
                 </li>
                 <li>
-                    <a href="#">Description</a>
+                    <a href="#description">Description</a>
                 </li>
                 <li>
-                    <a href="#">Gallerie</a>
+                    <a href="#gallerie">Gallerie</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -31,7 +31,7 @@
     <!--Navbar  -->
 
     <!-- Bienvenu -->
-    <div class="img-arriere">
+    <div class="img-arriere" id="accueil">
         <p>Welcome To Art Africain</p>
     </div>
     <!-- Bienvenu -->
@@ -40,22 +40,85 @@
     
 
     <!-- Description -->
-    <section id="description">
-        <h1>Description</h1>
-        <div class="bloc-description-img">
-            <div class="img-description-1">
-                <img src="images/robert-thiemann-c0DKAycklGY-unsplash.jpg" alt="">
+    <section id="description" class="description">    
+            <div class="description-img">
+                <div class="img-description-1">
+                    <img src="images/robert-thiemann-c0DKAycklGY-unsplash.jpg" alt="">
+                </div>
+                <div class="img-description-2">
+                    <img src="images/temple_louxor-MAX-w1000h600 (1).jpg" alt="luxor">
+                    <img src="images/spencer-davis-ONVA6s03hg8-unsplash.jpg" id="img-separator" alt="">
+                </div>
             </div>
-            <div class="img-description-2">
-                <img src="images/temple_louxor-MAX-w1000h600 (1).jpg" alt="">
-                <img src="images/spencer-davis-ONVA6s03hg8-unsplash.jpg" alt="">
+            <div class="description-text">
+                <h1>
+                    Description
+                </h1>
+                <p>
+                    L’art africain qualifie généralement des objets artisanaux, à vocation utilitaire, qui sont élaborés dans un souci d’utilité. l’art Africain se manifeste sous une multitude d’arts, souvent associes. La musique et la danse, la réalisation de nombreux types d’objets, sculptés éventuellement 
+                    enduit, peints ou produit par assemblage de nombreux éléments, ainsi que l’art du corp (coiffures, parures et peintures, corporelles, scarification, tatouages). 
+                </p>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi qui maxime iste! Obcaecati nisi ullam non repudiandae itaque culpa quasi quod delectus natus dolores. Provident fugit repellendus illum maxime.
-            </p>
         </div>
-        
     </section>
     <!-- Description -->
+
+    <!-- Gallerie -->
+    <section id="gallerie" class="gallerie">
+        <h1>Gallerie..</h1>
+        <div class="card-galerie">
+            <div class="card-img">
+                <img src="images/temple_louxor-MAX-w1000h600 (1).jpg" alt="Temple-luxor">
+                <img src="images/magrheb-1.jpeg" alt="Magrheb">
+                <a href="#" class="btn">Afrique du Nord</a>
+            </div>
+            <div class="card-img">
+                <img src="images/dim-hou-oHgMZCwPiNM-unsplash.jpg" alt="Dim-hou">
+                <img src="images/dogon.jpg" alt="Dogon">
+                <div>
+
+                </div>
+                <!-- <a href="#" class="btn">Afrique Centrale</a>
+                <a href="#" class="btn">Afrique de l'Ouest</a> -->
+            </div>
+            <div class="card-img">
+                <img src="images/est.jpg" alt="">
+                <img src="images/shaka.jpg" alt="Shaka">
+                <!-- <a href="#" class="btn">Afrique de l'est </a>
+                <a href="#" class="btn">Afrique Australe</a> -->
+            </div>
+        </div>
+    </section>
+    <!-- Gallerie -->
+
+
+    <!-- Contact -->
+    <section class="contact">
+        <h1>Contact..</h1>
+        <form action="" id="contact">
+            <div class="input-saisie">
+                <label for="nom">Nom </label>
+                <input type="text" name="nom" value="" placeholder="Entrer votre nom">
+            </div>
+            <div class="input-saisie">
+                <label for="prenom">Prenom </label>
+                <input type="text" name="prenom" value="" placeholder="Entrer votre prenom">
+            </div>
+            <div class="input-saisie">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Envoyer <span ></span></button>
+        </form>
+    </section>
+   
+    <!-- Contact -->
+
+
+    <!-- Footer -->
+    <footer>
+        <p>©Copyright yacoub_abderaman</p>
+    </footer>
+    <!-- Footer -->
 
 
 
