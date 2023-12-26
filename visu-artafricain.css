@@ -137,11 +137,12 @@ h1 {
 .card-img {
     width: 229px;
     height: 229px;
+    margin-right: 10px;
 }
 
-.card-img img {
+.card-img img{
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -149,7 +150,7 @@ h1 {
     margin-top: 10px;
 }
 
-.card-img .btn {
+.btn-group .btn {
     text-decoration: none;
     cursor: pointer;
     color: #FFFFFF;
